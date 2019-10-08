@@ -30,7 +30,7 @@ article{height: 13.5em;
       margin-top: 0;
       border: 0;
   }
-  .card article img ~p{max-height: 100%;
+  .card article img ~ p{max-height: 100%;
     float: left;}
 
 .card header{
@@ -52,7 +52,9 @@ article{height: 13.5em;
       font-size: 1.5em;
       text-align: center;
   }
-  
+  .card header, .cardfooter{
+      height: 30px; padding: 10px;
+  }
   /* Selectors to be matched up with rulesets */
   
   /* Rulesets to be matched up with selectors */
